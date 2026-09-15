@@ -1,0 +1,51 @@
+# --- Виртуальные окружения ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python: кэш, сборка, дистрибутивы ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.python-version
+
+# --- Тесты и линтеры ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# --- Результаты парсинга (генерируются программой) ---
+results/
+
+# --- Локальный конфиг: создаётся автоматически при первом запуске,
+#     у каждого свой (значения по умолчанию — в app/main.py: DEFAULT_CONFIG) ---
+config.json
+
+# --- Захваченные для отладки страницы FunPay (большие, скачиваются заново) ---
+homepage
+lotspage
+offerpage
+
+# --- IDE и редакторы ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# --- ОС ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Локальные данные инструментов ---
+.zcode/
+*.log

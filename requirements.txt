@@ -1,0 +1,4 @@
+# Зависимости проекта (Python 3.8+)
+aiohttp==3.10.11
+beautifulsoup4==4.15.0
+lxml==6.1.3
